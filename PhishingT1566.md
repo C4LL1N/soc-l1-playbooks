@@ -182,9 +182,54 @@ Powiązane playbooki: PB-SOC1-003 (Malware), PB-SOC1-007 (C2)
 - Włącz lub zweryfikuj MFA
 - Sprawdź ostatnie logowania
 
+## KRYTERIA ESKALACJI:
+
+ESKALUJ DO L2 NATYCHMIAST JEŚLI:
+══════════════════════════════════
+🔴 Potwierdzona kompromitacja credentials (C-level/admin)
+🔴 Malware execution potwierdzona na endpoincie
+🔴 Kampania phishingowa (>10 odbiorców, targeted)
+🔴 Spear phishing na C-level / VIP
+🔴 BEC z próbą przelewu
+🔴 Lateral movement po kliknięciu
+🔴 Powiązanie z aktywną kampanią APT (TI match)
+
+ESKALUJ DO SOC MANAGERA JEŚLI:
+══════════════════════════════════
+🟡 Masowa kampania (>100 odbiorców)
+🟡 Potrzebna komunikacja z biznesem
+🟡 Media exposure risk
+
+ ## EVIDENCE COLLECTION:
+
+ Wymagane dowody do ticketu:
+  - Screenshot emaila (treść + nagłówki)
+  - Pełne nagłówki (raw format)
+  - Lista IOC (IP, domeny, URL, hash)
+  - Wyniki sandbox (raport PDF/link)
+  - Wyniki VirusTotal (linki)
+  - Lista dotkniętych użytkowników
+  - Proxy/web gateway logi (kto kliknął)
+  - EDR telemetry (jeśli applicable)
+  - Timeline zdarzeń
+  - Podjęte akcje containment
+ 
+
+
+##  SIEM QUERIES:
+
+// Splunk — Phishing: kto kliknął podejrzany URL
+index=proxy dest_domain="evil-phish.com"
+| stats count by src_ip, user, dest_url, action
+| sort -count
+
+ 
+
 ## Mitigations: 
 
 <img width="1361" height="507" alt="2026-02-16_00-21" src="https://github.com/user-attachments/assets/6c2033fa-9dfa-4e87-ac9e-fde6ba26ea0c" />
+
+
 
 
 
