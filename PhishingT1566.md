@@ -42,7 +42,7 @@ Powiązane playbooki: PB-SOC1-003 (Malware), PB-SOC1-007 (C2)
 
 <img width="689" height="356" alt="2026-02-16_00-11" src="https://github.com/user-attachments/assets/b3370eca-361f-4d34-8f85-0620f7f1f8bc" />
 
-## Detection Strategy Według Mitre acroos Platform:
+## Detection Strategy Według Mitre across Platform:
 
 - AN0188 Unusual inbound email activity where attachments or embedded URLs are delivered to users followed by execution of new processes or suspicious document behavior. Detection involves correlating email metadata, file creation, and network activity after a phishing message is received.
 
