@@ -182,6 +182,12 @@ Powiązane playbooki: PB-SOC1-003 (Malware), PB-SOC1-007 (C2)
 - Włącz lub zweryfikuj MFA
 - Sprawdź ostatnie logowania
 
+## Mitigations: 
+
+<img width="1361" height="507" alt="2026-02-16_00-21" src="https://github.com/user-attachments/assets/6c2033fa-9dfa-4e87-ac9e-fde6ba26ea0c" />
+
+
+
 
 
 
