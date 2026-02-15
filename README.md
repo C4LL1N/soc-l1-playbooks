@@ -1,5 +1,5 @@
 # soc-l1-playbooks
-PB-SOC1-001: [Phishing Email Analysis](https://github.com/C4LL1N/soc-l1-playbooks/blob/main/PhishingT1566.md): zgodnie z [MITRE ATTACKS](https://attack.mitre.org/techniques/T1566/)
+PB-SOC1-001: [Phishing Email Analysis](https://github.com/C4LL1N/soc-l1-playbooks/blob/main/PhishingT1566.md) : zgodnie z [MITRE ATTACKS](https://attack.mitre.org/techniques/T1566/)
 ## SEKCJA NARZĘDZI (Appendix per playbook)
 
 | KATEGORIA       | NARZĘDZIA                                      |
