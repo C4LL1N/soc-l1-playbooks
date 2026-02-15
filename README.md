@@ -44,16 +44,25 @@ Closing Notes Template
 
 - Alert ID: [ID]
 - Classification: True Positive / False Positive / Benign True Positive
+- 
 - Category: Phishing / Malware / Brute Force / ...
+- 
 - Severity: Critical / High / Medium / Low
+- 
 - Summary: [1-2 zdania co się stało]
+- 
 - Root Cause: [Co było przyczyną]
+- 
 - Impact: [Kto/co zostało dotknięte]
+- 
 - Actions Taken: [Lista podjętych akcji]
+- 
 - IOCs Extracted: [Lista IOC dodanych do blocklist/TI]
+- 
 - Recommendations: [Zalecenia — tuning rule, user training, etc.]
-- Escalated: Yes/No → [Do kogo]
+
 - Time Spent: [minuty]
+- 
 - Analyst: [Imię]
 
 
