@@ -3,7 +3,7 @@
 PB-SOC1-001: [Phishing Email Analysis](https://github.com/C4LL1N/soc-l1-playbooks/blob/main/PhishingT1566.md) : zgodnie z [MITRE ATTACKS](https://attack.mitre.org/techniques/T1566/)
 
 
-[PB-SOC1-001: Malware Detection & Triage]() :
+[PB-SOC1-001: Malware Detection & Triage](https://github.com/C4LL1N/soc-l1-playbooks/blob/main/PB-SOC1-002%3AMalwareDetection%26Triage.md) :
  
 ## SEKCJA NARZĘDZI (Appendix per playbook)
 
